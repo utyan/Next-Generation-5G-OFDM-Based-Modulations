@@ -38,6 +38,7 @@ for i=1:NumeroCapturas
 %     plot(SignalRecibida(end-100:end));
 %     figure
 %     plot(SignalTransmitted(end-100:end));
+check
    
 end
  save(matrixSignalRecibidaName,'matrixSignalRecibida')
